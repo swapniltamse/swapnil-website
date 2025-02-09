@@ -1,4 +1,5 @@
 import React from 'react';
+// import profileImage from '../assets/swapnil-tamse-profile.jpg';
 
 const Bio: React.FC = () => {
   return (
@@ -7,7 +8,8 @@ const Bio: React.FC = () => {
       <p>
       I'm a software engineer with 13 years of experience in Java, C#, AWS, and SQL. 
       Currently, I am an Engineering Manager at Prudential Financial.  </p>
-      <img src="./assets/profile.jpg" alt="Profile" />
+      {/* <img src={profileImage} alt="Profile2" /> */}
+      {/* <img src={require('../assets/swapnil-tamse-profile.jpg')} alt="Profile2" /> */}
     </section>
   );
 };
