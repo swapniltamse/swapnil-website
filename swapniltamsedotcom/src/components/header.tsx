@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header>
-      <h1>Swapnil Tamse</h1>
+      <h1>Welcome to My Website</h1>
       <nav>
         <a href="#bio">About Me</a>
         <a href="#projects">Projects</a>
